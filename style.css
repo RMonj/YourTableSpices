@@ -1,4 +1,4 @@
-/* Global Elements */
+//* Global Elements */
 * {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -49,7 +49,7 @@ header#header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.99);
+  background-color: #fef7ee;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -91,10 +91,10 @@ nav#nav-bar a:hover {
 }
 
 /* Section Form */
+
 section#form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   text-align: center;
   height: 200px;
   margin-bottom: 150px;
@@ -110,7 +110,7 @@ section#form h1 {
 }
 
 section#form h1 span#inline {
-
+  display: flex;
   padding-left: 150px;
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
@@ -119,24 +119,22 @@ section#form h1 span#inline {
 }
 
 #form {
-  display: inline-block;
+  display: block;
   height: 20px;
   padding: 5px 0px 100px 0px;
   text-align: center;
 }
 #email {
-  display: inline-block;
-  width: 210px;
-  padding-left: 200px;
+  width: 200px;
+  padding-left: 100px;
   padding: 7px;
-  margin: 0px -50px 0px 45px;
+  margin: px 15px 7px -25px;
 }
 
 #submit {
-  display: inline-block;
   padding-left: 100px;
-  margin-left: 50px;
-  margin-top: 5px;
+  margin-left: 4px;
+  margin-top: 0px;
   padding: 0 20px;
   height: 40px;
   width: 150px;
@@ -449,7 +447,7 @@ footer p  {
   text-transform: uppercase;
   color: grey;
   letter-spacing: 3px;
-  background-color: #FBFCFC;
+  background-color: #fef7ee;
 }
 
 footer img {
@@ -548,3 +546,6 @@ footer img {
   }
 
 }
+
+</style>
+</head>
