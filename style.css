@@ -1,4 +1,4 @@
-//* Global Elements */
+/* Global Elements */
 * {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -91,10 +91,10 @@ nav#nav-bar a:hover {
 }
 
 /* Section Form */
-
 section#form {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   height: 200px;
   margin-bottom: 150px;
@@ -110,7 +110,7 @@ section#form h1 {
 }
 
 section#form h1 span#inline {
-  display: flex;
+
   padding-left: 150px;
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
@@ -119,22 +119,24 @@ section#form h1 span#inline {
 }
 
 #form {
-  display: block;
+  display: inline-block;
   height: 20px;
   padding: 5px 0px 100px 0px;
   text-align: center;
 }
 #email {
-  width: 200px;
-  padding-left: 100px;
+  display: inline-block;
+  width: 210px;
+  padding-left: 200px;
   padding: 7px;
-  margin: px 15px 7px -25px;
+  margin: 0px -50px 0px 45px;
 }
 
 #submit {
+  display: inline-block;
   padding-left: 100px;
-  margin-left: 4px;
-  margin-top: 0px;
+  margin-left: 50px;
+  margin-top: 5px;
   padding: 0 20px;
   height: 40px;
   width: 150px;
@@ -546,6 +548,3 @@ footer img {
   }
 
 }
-
-</style>
-</head>
